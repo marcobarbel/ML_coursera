@@ -1,5 +1,3 @@
-# Doing all exercises from Machine Learning - Coursera on a Google Colab notebook
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcobarbel/ML_coursera/blob/master/machine_learning_coursera.ipynb\)
 
-### Link to the notebook:
-
-https://colab.research.google.com/drive/12-aV3lQ7jJ2SdsHyQDuGNgoixupTymiZ
+# Reviewing **Machine Learning - Coursera** and adding it to a jupyter notebook

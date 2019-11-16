@@ -17,11 +17,11 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
-
-
-
-
-
+    ho = X * theta;
+    errors_theta = ho - y;
+    
+    theta -= alpha * (1/m) * sum(X.*repmat(errors_theta, 1, size(X,2)));
+    
 
     % ============================================================
 

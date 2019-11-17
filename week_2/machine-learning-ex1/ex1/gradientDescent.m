@@ -20,7 +20,9 @@ for iter = 1:num_iters
     ho = X * theta;
     errors_theta = ho - y;
     
-    theta -= alpha * (1/m) * sum(X.*repmat(errors_theta, 1, size(X,2)));
+    % theta -= alpha * (1/m) * sum(X.*repmat(errors_theta, 1, size(X,2)));
+
+    theta -= alpha * (1/m) * (X' * errors_theta);
     
 
     % ============================================================
